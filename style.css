@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at center, #000, #222);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-area {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: #111;
+  border: 3px solid #444;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#cracker {
+  position: absolute;
+  bottom: 50px;
+  left: 160px;
+  width: 80px;
+}
+
+#fuse {
+  position: absolute;
+  width: 4px;
+  height: 30px;
+  background: orange;
+  bottom: 130px;
+  left: 195px;
+  border-radius: 2px;
+  transition: background 0.3s;
+}
+
+#lighter {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  width: 50px;
+  cursor: grab;
+}
+
+#burst {
+  position: absolute;
+  bottom: 60px;
+  left: 145px;
+  width: 120px;
+  display: none;
+}
